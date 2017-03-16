@@ -1,0 +1,20 @@
+<div class="fav-heading">
+   <h3>Favourite Restaurants</h3>
+</div>
+   <div class="container">
+  <div class="row">
+     <ul>
+       <li>
+         {{#each favouriteRestaurant.items as |item|}}
+             <div class="col-md-3 .col-md-offset-6">
+               <ul class="list-group">
+                 <li class="list-group-item active">Tours Details</li>
+                  <li class="list-group-item"><strong>Place</strong>: {{item.tour}}</li>
+                  <li class="list-group-item"><strong>Price</strong>: {{item.price}}</li>
+                </ul>
+             </div>
+          {{/each}}
+      </li>
+    </ul>
+  </div>
+</div>

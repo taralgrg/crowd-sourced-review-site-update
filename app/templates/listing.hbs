@@ -1,0 +1,19 @@
+<br><br><h2>More information about {{model.listing.tour}}</h2><br>
+
+  <h4>{{model.listing.location}}<br>
+    {{model.listing.duration}}<br>{{model.listing.price}} </h4>
+    <p><img class="image1" src={{model.listing.image}}></p>
+
+
+    <div class="col-md-3" >
+      <h4> All Reviews </h4>
+
+
+
+
+
+       {{new-review saveReview="saveReview" listing=model.listing }}
+       {{listing-detail listing=model.listing destroyReview="destroyReview"}}
+       {{new-listing saveListing2="saveListing3"}}
+
+    </div>
