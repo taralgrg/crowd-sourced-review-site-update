@@ -16,6 +16,10 @@ border: 10px solid #000000;
   width: 355px;
 }
 
+.tag-heading{
+  text-align: center;
+}
+
 /******* favorite styling *************/
 
 .display-sep{
